@@ -17,7 +17,7 @@
 
 5. Create a src folder and an index.js file inside it
 
-4. Create a config file and write this
+6. Create a config file and write this
 ```const path = require('path');
 
 module.exports = {
@@ -26,12 +26,14 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-};```
+};
+```
+
 Visit [webpack documentation](https://webpack.js.org/guides/getting-started/) for better understanding. You can add other configuration as you deem fit, see webpack.config.js to see a sample.
 
-5. Change the start key in the script to 
+7. Change the start key in the script to 
 ```webpack-dev-server --config ./webpack.config.js --mode development``` to be able to compile the project and start listening at a port.
 
-6. Run `npm start` to start server, once it is successfully compiled, copy the link to hte port the project is running, paste on your browser.
+8. Run `npm start` to start server, once it is successfully compiled, copy the link to hte port the project is running, paste on your browser.
 Hurray!!! you have successfully configured webpack for your project, code away... :smile:
 

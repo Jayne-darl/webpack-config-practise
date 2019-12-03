@@ -35,5 +35,6 @@ Visit [webpack documentation](https://webpack.js.org/guides/getting-started/) fo
 ```webpack-dev-server --config ./webpack.config.js --mode development``` to be able to compile the project and start listening at a port.
 
 8. Run `npm start` to start server, once it is successfully compiled, copy the link to hte port the project is running, paste on your browser.
-Hurray!!! you have successfully configured webpack for your project, code away... :smile:
+
+Hurray!!! you have successfully configured webpack for your project, code away... :smile: **Don't forget to create a gitignore file for your node_modules before commit** :wink:
 
